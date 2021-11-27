@@ -1,4 +1,4 @@
-#this is my code breakdown for completing the typing speed test gui
+#this is my code testing and debugging area for completing the typing speed test gui.
 
 #-----------------------detecting the word the user entered----------------------------------------------------
 # words = ["hello", "crazy", "great"]
@@ -10,16 +10,16 @@
 # else:
 #     print(wrong)
 
-try:
-    with open("highscore.txt",mode="r") as file:
-        content = file.read()
-except FileNotFoundError:
-    with open("highscore.txt", mode="w") as file:
-        file.write("0")
-else:
-    print(content)
-
-
+# try:
+#     with open("highscore.txt",mode="r") as file:
+#         content = file.read()
+# except FileNotFoundError:
+#     with open("highscore.txt", mode="w") as file:
+#         file.write("0")
+# else:
+#     print(content)
+#
+#
 
 
 
